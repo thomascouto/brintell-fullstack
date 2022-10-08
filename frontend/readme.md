@@ -11,3 +11,5 @@
 
 1. npm i
 2. npm run dev
+
+![image](https://user-images.githubusercontent.com/16022815/194689969-618b5cfa-021d-4be4-9fef-df3c950b4f59.png)
