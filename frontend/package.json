@@ -1,0 +1,51 @@
+{
+	"name": "frontend",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"axios": "^1.1.2",
+		"bootstrap": "^5.2.2",
+		"formik": "^2.2.9",
+		"leaflet": "^1.9.2",
+		"react": "^18.2.0",
+		"react-bootstrap": "^2.5.0",
+		"react-dom": "^18.2.0",
+		"react-leaflet": "^4.1.0",
+		"react-minimal-pie-chart": "^8.3.0",
+		"react-router-dom": "^6.4.2",
+		"sass": "^1.55.0",
+		"yup": "^0.32.11"
+	},
+	"repository": {
+		"url": "https://www.github.com/thomascouto/brintell-fullstack"
+	},
+	"devDependencies": {
+		"@types/leaflet": "^1.8.0",
+		"@types/react": "^18.0.17",
+		"@types/react-dom": "^18.0.6",
+		"@types/react-leaflet-pixi-overlay": "^3.0.0",
+		"@typescript-eslint/eslint-plugin": "^5.39.0",
+		"@typescript-eslint/parser": "^5.39.0",
+		"@vitejs/plugin-react": "^2.1.0",
+		"eslint": "^8.24.0",
+		"eslint-plugin-react": "^7.31.8",
+		"typescript": "^4.6.4",
+		"vite": "^3.1.0"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not op_mini all"
+	],
+	"development": [
+		"last 1 chrome version",
+		"last 1 firefox version",
+		"last 1 safari version"
+	]
+}
