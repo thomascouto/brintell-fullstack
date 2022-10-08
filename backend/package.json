@@ -1,0 +1,49 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "backend",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsnd --respawn --transpile-only --clear -r dotenv/config src",
+		"prepare": "cd .. && husky install backend/.husky"
+	},
+	"keywords": [],
+	"author": "Thomas Couto Gondim Rocha",
+	"license": "ISC",
+	"devDependencies": {
+		"@commitlint/cli": "^17.1.2",
+		"@commitlint/config-conventional": "^17.1.0",
+		"@mikro-orm/mongo-highlighter": "^1.0.0",
+		"@types/cors": "^2.8.12",
+		"@types/express": "^4.17.14",
+		"@types/node": "^18.8.3",
+		"@typescript-eslint/eslint-plugin": "^5.39.0",
+		"@typescript-eslint/parser": "^5.39.0",
+		"cors": "^2.8.5",
+		"eslint": "^8.24.0",
+		"husky": "^8.0.1",
+		"ts-node": "^10.9.1",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^4.8.4",
+		"vitest": "^0.23.4"
+	},
+	"repository": {
+		"url": "https://www.github.com/thomascouto/brintell-fullstack"
+	},
+	"dependencies": {
+		"@mikro-orm/core": "^5.4.2",
+		"@mikro-orm/mongodb": "^5.4.2",
+		"@mikro-orm/reflection": "^5.4.2",
+		"colors": "^1.4.0",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1",
+		"helmet": "^6.0.0"
+	},
+	"mikro-orm": {
+		"useTsNode": true,
+		"configPaths": [
+			"./src/mikro-orm.config.ts",
+			"./dist/mikro-orm.config.js"
+		]
+	}
+}
